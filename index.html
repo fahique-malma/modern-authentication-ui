@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup / Login Form</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+
+      <div id="signupForm">
+        <h2>Create Account</h2>
+
+        <div class="input-box">
+          <input type="text" id="signupUsername" placeholder="Username" />
+          <div class="error" id="signupUsernameError"></div>
+        </div>
+
+        <div class="input-box">
+          <input type="email" id="signupEmail" placeholder="Email" />
+          <div class="error" id="signupEmailError"></div>
+        </div>
+
+        <div class="input-box">
+          <input type="password" id="signupPassword" placeholder="Password" />
+          <div class="error" id="signupPasswordError"></div>
+        </div>
+
+        <button onclick="validateSignup()">Signup</button>
+
+        <div class="success" id="signupSuccess"></div>
+
+        <div class="switch-text">
+          Already have an account?
+          <span onclick="showLogin()">Login</span>
+        </div>
+      </div>
+
+
+      <div id="loginForm" class="hidden">
+        <h2>Welcome Back</h2>
+
+        <div class="input-box">
+          <input type="text" id="loginEmail" placeholder="Username or Email" />
+          <div class="error" id="loginEmailError"></div>
+        </div>
+
+        <div class="input-box">
+          <input type="password" id="loginPassword" placeholder="Password" />
+          <div class="error" id="loginPasswordError"></div>
+        </div>
+
+        <button onclick="validateLogin()">Login</button>
+
+        <div class="success" id="loginSuccess"></div>
+
+        <div class="switch-text">
+          Don't have an account?
+          <span onclick="showSignup()">Signup</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
