@@ -1,7 +1,4 @@
 # modern-authentication-ui
-A modern and responsive Signup &amp; Login Form built using **HTML, CSS, and JavaScript** featuring form validation, authentication logic, and mobile-friendly UI.
-
-# modern-authentication-ui
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
